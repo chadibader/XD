@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(191, 102, 54);
+    color: black;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+header .icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(191, 102, 54);
+    text-align: center;
+    padding: 1rem;
+}
+
+.favorites {
+    padding: 2rem;
+    text-align: center;
+}
+
+.favorites h2 {
+    font-size: 2rem;
+    color: rgb(191, 102, 54);
+    border-bottom: 2px solid rgb(191, 102, 54);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: auto;
+    margin: 0 1rem;
+}
+
+.additional-section {
+    padding: 2rem;
+}
+
+.brown-section {
+    background-color: rgb(191, 102, 54);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    margin: 0 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.brown-section h3 {
+    margin-bottom: 1rem;
+}
+
+.shop-now {
+    background-color: white;
+    color: rgb(191, 102, 54);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: auto;
+    transition: background-color 0.3s;
+}
+
+.shop-now:hover {
+    background-color: rgb(191, 102, 54);
+    color: white;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    color: rgb(191, 102, 54);
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.email-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.email-subscribe input {
+    padding: 0.5rem;
+    border: 1px solid rgb(191, 102, 54);
+    border-right: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.email-subscribe button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(191, 102, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.email-subscribe button:hover {
+    background-color: darken(rgb(191, 102, 54), 10%);
+}
+
+footer {
+    background-color: rgb(191, 102, 54);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+footer .footer-left,
+footer .footer-center,
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer .footer-left {
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .footer-left .icon,
+footer .footer-right .icon {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .social-icons .icon {
+    font-size: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
